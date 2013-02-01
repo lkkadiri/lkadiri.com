@@ -22,8 +22,8 @@ $(document).ready(function(){
 
        var w = $(window).width();
        
-       var nav_about = (w/2)-315;
-       var nav_work = (w/2)-235;
+       // var nav_about = (w/2)-315;
+       var nav_about = (w/2)-235;
        var nav_projects = (w/2)-146;
        var nav_contact = (w/2)-46;
        
@@ -86,9 +86,6 @@ $(document).ready(function(){
                 $("div#nav_logo_w").css("display", 'none');
                 $('div#navbar').stop().animate({backgroundPosition: nav_about +'px 0'}, {duration:300});
                    lastclicked = 315;
-            } else if(isScrolledIntoView('#work')) {
-                $('div#navbar').stop().animate({backgroundPosition: nav_work +'px 0'}, {duration:300});
-                   lastclicked = 233;
             } else if(isScrolledIntoView('#projects')) {
                    $('div#navbar').stop().animate({backgroundPosition: nav_projects +'px 0'}, {duration:300});
                 lastclicked = 144;
