@@ -527,8 +527,8 @@ __________________________________________________________
         float: left;
         width: 250px; }
  
-        .pprj .item_text.second h4 { margin-top: 0; }
- 
+    .pprj .item_text.second h4 { margin-top: 0;}
+ 	.pprj .item_text.second { margin-top: 0;width: 500px; }
     .pprj .item .hover .h3 { margin-top: 150px; }
  
     .pprj .grid {
